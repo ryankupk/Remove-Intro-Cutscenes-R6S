@@ -1,0 +1,3 @@
+# Remove cutscenes at boot of Rainbow Six Siege
+
+There are two optional, skippable cutscenes that play when loading Tom Clancy's Rainbow Six: Siege. They are stored locally as bitmap files, and can be replaced with empty files to skip those cutscenes automatically. This python script will rename the two files so as to save them off in the case that they want to be added back, then creates two new empty bitmap files that will be "played" when loading the game.
